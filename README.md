@@ -1,5 +1,5 @@
 # hw_03
-This is a homework assignment for CSCI 40 class at Claremont McKenna College. Go to the [project page](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03) to learn more!
+<b>This is a homework assignment for CSCI 40 class at Claremont McKenna College. Go to the [project page](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03) to learn more!</b>
 
 The ebay-dl.py file converts ebay's html files into JSON files. I also modified the ebay-dl.py file so it also 
 covert ebay's html file files into CSV files when adding --csv to the command line. For commands below, I only showed the first page results from Ebay. 
@@ -16,6 +16,7 @@ python3 ebay-dl.py 'phone case' --num_page=1
 ```
 
 # Commands to convert HTML files to CSV files when adding --csv
+Whenever the flag ```<--csv>``` is specified, the output file will be saved in CSV format instead of JSON format. Below are the commands that will convert HTML files to CSV files when adding --csv. For example, when you add the flag ```<--csv>```to the command for ```<chair>```, it will create a new CSV file for ```<chair>```. If there is no ```<--csv>``` in the command line, it will create a new JSON file instead.
 ```
 python3 ebay-dl.py 'chair' --csv --num_page=1
 ```
