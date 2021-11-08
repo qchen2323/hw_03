@@ -16,7 +16,7 @@ python3 ebay-dl.py 'phone case' --num_page=1
 ```
 
 # Commands to convert HTML files to CSV files when adding --csv
-Whenever the flag ```--csv``` is specified, the output file will be saved in CSV format instead of JSON format. Below are the commands that will convert HTML files to CSV files when adding --csv. For example, when you add the flag ```--csv```to the command for ```chair```, it will create a new CSV file for ```chair```. If there is no ```--csv``` in the command line, it will create a new JSON file instead.
+Whenever the flag ```--csv``` is specified, the output file will be saved in CSV format instead of JSON format. Below are the commands that will convert HTML files to CSV files when adding ```--csv```. For example, when you add the flag ```--csv```to the command for ```chair```, it will create a new CSV file for ```chair```. If there is no ```--csv``` in the command line, it will create a new JSON file instead.
 ```
 python3 ebay-dl.py 'chair' --csv --num_page=1
 ```
