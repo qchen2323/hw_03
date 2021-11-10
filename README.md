@@ -4,7 +4,7 @@
 The ```ebay-dl.py``` file converts Ebay's html files into JSON files. I also modified the ```ebay-dl.py``` file so it will also covert Ebay's html file files into CSV files when adding ```--csv``` to the command line. For commands below, I only showed the first page results from Ebay using ```---num_pages=1```. 
 
 # Commands to convert HTML files to JSON files
-The commands below will convert HTML files to JSON files for search term ```chair```, ```iphone```, and ```phone case```. They only show the first page results from Ebay, specifying by using the flag ```--num_pages=1```.
+The commands below will convert HTML files to JSON files for search term ```chair```, ```iphone```, and ```phone case```. The default number of pages is 10, but I specified the number of pages using the flag ```--num_pages=1```.
 ```
 python3 ebay-dl.py 'chair' --num_pages=1
 ```
