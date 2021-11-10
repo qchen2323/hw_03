@@ -14,7 +14,7 @@ python3 ebay-dl.py 'iphone' --num_pages=1
 ```
 python3 ebay-dl.py 'phone case' --num_pages=1
 ```
-# Default 
+# Default number of pages
 ```
 python3 ebay-dl.py 'chair' 
 ```
@@ -36,7 +36,7 @@ python3 ebay-dl.py 'iphone' --csv --num_pages=1
 ```
 python3 ebay-dl.py 'phone case' --csv --num_pages=1
 ```
-# Default 
+# Default number of pages
 ```
 python3 ebay-dl.py 'chair' --csv 
 ```
