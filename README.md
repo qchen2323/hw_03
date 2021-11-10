@@ -14,6 +14,16 @@ python3 ebay-dl.py 'iphone' --num_pages=1
 ```
 python3 ebay-dl.py 'phone case' --num_pages=1
 ```
+# Default 
+```
+python3 ebay-dl.py 'chair' 
+```
+```
+python3 ebay-dl.py 'iphone' 
+```
+```
+python3 ebay-dl.py 'phone case' 
+```
 
 # Commands to convert HTML files to CSV files when adding --csv
 Whenever the flag ```--csv``` is specified, the output file will be saved in CSV format instead of JSON format. Below are the commands that will convert HTML files to CSV files when adding ```--csv```. For example, when you add the flag ```--csv```to the command for ```chair```, it will create a new CSV file for ```chair```. If there is no ```--csv``` in the command line, it will create a new JSON file instead.
@@ -25,4 +35,14 @@ python3 ebay-dl.py 'iphone' --csv --num_pages=1
 ```
 ```
 python3 ebay-dl.py 'phone case' --csv --num_pages=1
+```
+# Default 
+```
+python3 ebay-dl.py 'chair' --csv 
+```
+```
+python3 ebay-dl.py 'iphone' --csv 
+```
+```
+python3 ebay-dl.py 'phone case' --csv 
 ```
